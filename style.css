@@ -1,0 +1,291 @@
+/*  CSS GERAL */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+font-family: 'Source Sans Pro', sans-serif;
+    color: #454545;
+}
+p {
+    font-size: 14px;
+    line-height: 1.6em;
+    color: #454545;
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #0083e8;
+}
+h2 {
+    font: 600 23px 'Source Sans Pro', sans-serif;
+    line-height: 3em;
+    color: #000;
+}
+h3 {
+    font-size: 18px;
+    font-weight: 400;
+}
+ul {
+    list-style: none;
+}
+header {
+    height: 62px;
+}
+footer {
+    border: 1px solid #dadada;
+    background: #f8f8f8;
+    clear: both;
+}
+footer ul {
+    list-style: disc;
+}
+dt, dd {
+    font-size: 14px;
+}
+dt {
+    font-weight: 600;
+    line-height: 1.5em;}
+dd {
+    line-height: 1.5em;
+    padding-bottom: 21px;
+    font-weight: 400;
+    color: #454545;
+}
+dl:first-child {
+    font-family: 'Myriad Pro', 'Source Sans Pro', sans-serif;
+}
+
+/*  LOGO */
+
+#logo {
+    display: inline-block;
+    float: left;
+}
+.brackets-logo a {
+    background: url(img/brackets_logo.png) no-repeat;
+    padding-left: 26px;
+    background-position: 0 5px;
+    text-decoration: none;
+    color: #000;
+    font: 600 24px 'Source Sans Pro', sans-serif;
+    line-height: 2.5em;
+}
+
+/*  TOP EXTERNAL LINKS */
+
+#external-links ul {
+    float: right;
+    margin-top: 20px;
+
+}
+#external-links li {
+    display: inline-block;
+    text-indent: -9999px;
+    padding-left: 15px;
+    margin: 0;
+}
+#external-links li a {
+    display: block;
+    margin: 0;
+}
+.sprite {
+    background: url(img/ico_sprite.png) no-repeat;
+    height: 22px;
+}
+.github {
+    background-position: 0 0;
+    width: 22px;
+}
+.ggroup {
+    background-position: -22px 0;
+    width: 22px;
+}
+.irc {
+    background-position: -44px 0;
+    width: 25px;
+}
+.twitter {
+    background-position: -69px 0;
+    width: 22px;
+}
+.gplus {
+    background-position: -91px 0;
+    width: 20px;
+}
+.face {
+    background-position: -111px 0;
+    width: 20px;
+}
+.youtube {
+    background-position: -131px 0;
+    width: 20px;
+}
+
+/*  MAIN CSS */
+
+.content{
+    width: 940px;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+}
+#main, #thumbnails {
+    background-color: #2fa7fc;
+}
+#main {
+    box-shadow: inset 0 3px 3px rgba(0,0,0,.12);
+    padding-top: 60px;
+    background: #2fa7fc; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #2fa7fc 0%, #2fa7fc 50%, #288edf 50%, #288edf 50%, #288edf 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#2fa7fc), color-stop(50%,#2fa7fc), color-stop(50%,#288edf), color-stop(50%,#288edf), color-stop(100%,#288edf)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg, #2fa7fc 0%,#2fa7fc 50%,#288edf 50%,#288edf 50%,#288edf 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg, #2fa7fc 0%,#2fa7fc 50%,#288edf 50%,#288edf 50%,#288edf 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg, #2fa7fc 0%,#2fa7fc 50%,#288edf 50%,#288edf 50%,#288edf 100%); /* IE10+ */
+    background: linear-gradient(135deg, #2fa7fc 0%,#2fa7fc 50%,#288edf 50%,#288edf 50%,#288edf 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2fa7fc', endColorstr='#288edf',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+#entry-title {
+    color: #fff;
+    float: left;
+    width: 320px;
+    padding-right: 55px;
+}
+#hero {
+    float: left;
+    width: 565px;
+    height: 290px;
+}
+#entry-title h1 {
+    font: 400 45px "Source Sans Pro", sans-serif;
+    text-shadow: 0 1px 0 rgba(0,0,0,.7);
+    line-height: 65px;
+}
+#entry-title p {
+    font: 300 20px "Source Sans Pro", sans-serif;
+    line-height: 1.3em;
+    text-shadow: 0 1px 0 rgba(0,0,0,.5);
+    color: #fff;
+}
+.button {
+    border-radius: 4px;
+    border: 1px solid #0055ad;
+    background-color: #288edf;
+    color: #fff;
+    text-align: left;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.36);
+    cursor: pointer;
+    line-height: 2em;
+    padding: 10px 15px;
+    display: inline-block;
+}
+.button:hover {
+    background-color: #1a7bc7;
+    text-decoration: none;
+}
+.button h2 {
+    font: 400 22px 'Source Sans Pro', sans-serif;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.7), 0 0 0 rgba(0,0,0,.7), 0 -1px 0 rgba(0,0,0,.7);
+    color: #fff;
+}
+.button span {
+    font-weight: 300;
+}
+
+#copy .col-4 {
+    padding-bottom: 60px;
+}
+#copy .content {
+    background: url(img/robot.png) no-repeat;
+    background-position: 100% 100%;
+}
+#copy h2 {
+    text-transform: capitalize;
+}
+#copy a:hover, footer a:hover {
+text-decoration: underline;
+}
+
+#thumbnails {
+    padding: 40px 0 30px;
+}
+.thumb-features li {
+    display: inline-block;
+    padding:0;
+    margin-right: 22px;
+}
+.thumb-features li:last-child {
+    margin-right: 0;
+}
+.thumb-features a {
+    color: #fff;
+}
+figcaption {
+    text-align: center;
+    color: #fff;
+    font: 400 14px 'Source Sans Pro', sans-serif;
+    padding-top: 5px;
+    line-height: 1em;
+}
+.col-4 {
+    box-sizing: border-box;
+    width: 33.3339%;
+    float: left;
+    padding-left: 27px;
+    margin-top: 30px;
+}
+.col-4:first-child {
+    padding-left: 0;
+}
+footer ul {
+    padding-left: 38px;
+    padding-top: 18px;
+}
+#widgets {
+    padding-bottom: 60px;
+}
+#widgets li {
+    font-size: 14px;
+    line-height: 21px;
+}
+.quicklist {float: left;}
+.quicklist ul {
+    padding-top: 0;
+}
+#adobe {
+    text-align: center;
+    padding-bottom: 30px;
+}
+#adobe p {
+    color: #888888;
+}
+.adobe-logo {
+    background: url(img/adobe-logo@2x.png) no-repeat;
+    background-size: 100% 100%;
+    width: 32px;
+    height: 37px;
+    display: block;
+    margin: 0 auto;
+    text-indent: -9999px;
+}
+
+/* CLEARFIX HACK */
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+html .clearfix {
+	display: block;
+}
+* html .clearfix {
+	height: 1%;
+}
